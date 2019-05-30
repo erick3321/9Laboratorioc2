@@ -1,0 +1,88 @@
+/*Write your style here*/
+
+.tes{
+	right: 120px;
+	text-decoration: none;
+	background: purple;
+	margin: auto;
+
+}
+.container{
+	background-image:url("images/banner.jpg");
+	position: center,
+}
+.ondo{
+	background: url(file:///C:/Users/Liceo%20Compu-Market/Desktop/ActiveBox/images/banner.jpg);
+	max-height: 500px;
+}
+.tess{
+	color: #fff;
+	position: center;
+	font-size: 50px;
+
+}
+.tesss{
+	color: #fff;
+	position: center;
+	font-size: 10px;
+
+}
+.tesa{
+	right: 89px;
+	text-decoration: none;
+	background: #EB350E;
+	margin: auto;
+}
+.ondo{
+	background: #fff:;
+	max-height: 500px;
+}
+.imagena{
+	width: 200px;
+	height: 150px;
+
+}
+.esta{
+	font-size: 20px;
+}
+.asa{
+	width: 40px;
+	height: 30px;
+}
+.esaaa{
+	width: 90px;
+	height: 80px;
+}
+.aa{
+	width: 60px;
+	height: 59px;
+
+}
+.imagen1{
+	width: 250px;
+	height: 200px;
+}
+.testa{
+	background: #fff;
+
+}
+#button {
+ padding: 0;
+ }
+
+Este código elimina el padding que se puede crear por defecto en una lista de elementos, en este caso nuestro menú.
+
+Por defecto, estas listas se crean de forma vertical, pero nuestro menú tiene que ser horizontal, así que le diremos que se pongan en línea usando “display: inline.”
+
+#button li {
+ display: inline;
+ }
+ #button li a {
+ font-family: Arial;
+ font-size: 11px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ background-color: #2175bc;
+ color: #fff;
+ }
